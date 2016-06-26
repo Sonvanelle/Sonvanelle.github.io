@@ -87,7 +87,7 @@ header h2 {
 #container {
   min-height: 1800px;
   min-width: 250px;
-  background-color: white;
+  background-image: url(http://wallpapersonthe.net/wallpapers/b/3840x2160/3840x2160-digital_art_pixel_art_moon_video_games_superbrothers_sword_amp_sorcery_ep-20833.png);
 }
 
 .inner {
@@ -316,7 +316,7 @@ footer {
   padding-bottom: 30px;
   margin-top: 40px;
   font-size: 13px;
-  color: #aaa;
+  color: #ffffff;
   background: transparent url('../images/hr.png') 0 0 no-repeat;
 }
 
