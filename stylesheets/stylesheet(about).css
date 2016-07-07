@@ -54,6 +54,8 @@ body {
   color: #f2f2f2;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   background-image: url(http://desktopwalls.net/wp-content/uploads/2014/07/Big%20City%20Skyscraper%20Artwork%20Illustration%20Desktop%20Wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
@@ -88,6 +90,8 @@ header h2 {
   min-height: 1800px;
   min-width: 250px;
   background-image: url(http://desktopwalls.net/wp-content/uploads/2014/07/Big%20City%20Skyscraper%20Artwork%20Illustration%20Desktop%20Wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .inner {
