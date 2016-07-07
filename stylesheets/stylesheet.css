@@ -54,6 +54,7 @@ body {
   color: #e1e1e1;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   background-image: url(http://i.imgur.com/GGXD0OR.jpg);
+  background-attachment: fixed;
 }
 
 a {
