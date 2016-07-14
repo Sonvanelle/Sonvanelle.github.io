@@ -2,8 +2,7 @@
 <html>
   <head>
     
- 
-    
+    <script src="/brython.js"></script>
     
     <meta name="description" content="Prepare to be diasppointed, even if you expect nothing. " />
     <link rel="icon" href="favicon(1).ico" />
@@ -44,7 +43,7 @@ li a:hover:not(.active) {
     <title>Blame Jovian!</title>
   </head>
 
-  <body>
+  <body onload="brython()">
     <div id="container">
       <div class="inner">
 
@@ -70,6 +69,15 @@ li a:hover:not(.active) {
         <p>Test para</p>
         
         
+          <script type="text/python">
+          from browser import document, alert
+          
+          def echo(ev):
+              alert(document["zone"].value)
+          
+          document['mybutton'].bind('click',echo)
+          </script>
+          <input id="zone"><button id="mybutton">click !</button>
 
         <footer>
           <p>remember to smash that like button and give me a subscribe also follow me on twitter for updates and donate on patreon and check out my twitch stream</p>
